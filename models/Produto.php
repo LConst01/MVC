@@ -4,7 +4,7 @@
 class Produto {
     public static function todos() {
         //public static - permite chamar o método todos diretamente na classe
-        //static: se precisa criar objeto parar usar na classe ou não
+        //static: se precisa criar objeto para usar na classe ou não
 
         return [
             ['nome' => 'Teclado Mecânico', 'preco' => 250], // "=>" operador de atribuição de array

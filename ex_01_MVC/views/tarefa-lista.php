@@ -6,12 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Produtos Disponíveis</h1>
+    <h1>Tarefas a Cumprir</h1>
     <ul>
-        <?php foreach ($produtos as $produto): ?>
-            <li><?php echo $produto['nome'] ?> - R$ <?php echo $produto['preco']; ?></li>
+        <?php foreach ($tarefas as $tarefa): ?>
+            <li><?php echo $tarefa['nome']?> - <?php echo $tarefa['status']; ?></li>
 
         <?php endforeach;?>
     </ul>
 </body>
 </html>
+
